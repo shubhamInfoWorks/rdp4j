@@ -16,7 +16,10 @@ repositories {
 }
 
 dependencies {
+    compile 'org.apache.hadoop:hadoop-azure:2.8.5'
+    compile 'org.apache.hadoop:hadoop-common:2.8.5'
     compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'com.jcraft:jsch:0.1.54'
     testCompile 'org.slf4j:slf4j-simple:1.7.21'
     testCompile 'junit:junit:4.12'
     testCompile 'org.powermock:powermock-api-mockito:1.6.5'
